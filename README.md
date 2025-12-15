@@ -1,4 +1,4 @@
----
+
 
 # 🏋️ 운동의 민족 (Undong Minjok)
 
@@ -8,18 +8,16 @@
 
 
 ---
-## 목차 (Table of Contents)
 
-1. [👩‍👧‍👦 멤버 소개](#-1-멤버-소개)  
-2. [⚒️ 서비스 소개](#️-2-서비스-소개)  
-3. [🚀 기술 스택](#-3-기술-스택)  
-4. [🗂️ 프로젝트 산출물](#️-4-프로젝트-산출물)  
-5. [⚠️ Trouble Shooting](#️-5-trouble-shooting)  
+## 📑 목차 (Table of Contents)
 
-
-
-## 📂 프로젝트 파일 구조
-
+1. [👩‍👧‍👦 멤버 소개](#-1-멤버-소개)
+2. [⚒️ 서비스 소개](#️-2-서비스-소개)
+3. [🚀 기술 스택](#-3-기술-스택)
+4. [🗂️ 프로젝트 산출물](#️-4-프로젝트-산출물)
+5. [🔁 배포 문서](#️-5-배포-문서)
+6. [🎅🏻 회고](#️-6-회고)
+7. [⚠️ Trouble Shooting](#️-5-trouble-shooting)
 ---
 
 ## 👩‍👧‍👦 1. 멤버 소개
@@ -235,10 +233,12 @@
   작업 트래커를 자세히 보려면 [여기](https://www.notion.so/2be0b8a09a768094b73fdc7cf4d0c3e9?source=copy_link)를 클릭하세요
 
   <details> <summary> WBS</summary>
-  <img width="1310" height="785" alt="Image" src="https://github.com/user-attachments/assets/e5bde1ad-5158-4867-93b5-dc5919ff4b2e" />
+  <img width="1310" height="785" alt="Image" src="https://github.com/user-attachments/assets/7a6cab48-2684-47fb-9361-9e3089a57b5e" />
   </details>
   <details> <summary> Task Tracker</summary>
-  <img width="1310" height="785" alt="Image" src="https://github.com/user-attachments/assets/e5bde1ad-5158-4867-93b5-dc5919ff4b2e" />
+ 	 <img width="1310" height="785" alt="Image" src="https://github.com/user-attachments/assets/4e50aaee-135f-4a4f-aac3-bb186087608d" />
+	  <img width="1310" height="785" alt="Image" src="https://github.com/user-attachments/assets/a2d7f2dc-169e-4bdc-8b1f-a9bf4c451672" />
+	  <img width="1310" height="785" alt="Image" src="https://github.com/user-attachments/assets/d4753854-fd8b-4844-9ae5-f2aa175368c7" />
   </details>
 
 
@@ -266,6 +266,13 @@
   
 - ### ▶️ 기능 수행 테스트 결과
   <details> <summary>로그인, 회원가입 </summary>
+	  <strong> 회원가입 </strong>
+	  <p>
+	  <img
+	    src="https://github.com/user-attachments/assets/d4c05b8a-a137-4919-a99c-4187a27b7d1d"
+	    width="800"
+	  />
+	</p>
 	  <strong> 로그인 </strong>
 	  <p>
 	  <img
@@ -273,32 +280,57 @@
 	    width="800"
 	  />
 	</p>
-	<strong> 회원가입 </strong>
-	  <p>
-	  <img
-	    src="https://github.com/user-attachments/assets/9a889d4e-a16f-4014-8ba2-049a83baeb62"
-	    width="800"
-	  />
-	</p>
-
-
 	  
   </details>
 
   <details> <summary>마이페이지 </summary>
+	  <strong> 프로필 수정 </strong>
+	<p>
+	  <img
+	    src="https://github.com/user-attachments/assets/4679d199-cae3-4522-91d5-85d2cd224712"
+	    width="800"
+	  />
+	</p>
+	<strong> 마이페이지 조회 </strong>
+	<p>
+	  <img
+	    src="https://github.com/user-attachments/assets/21ff2c71-9ea2-40b6-9e07-db786fd36687"
+	    width="800"
+	  />
+	</p>
+	<strong> 구매내역 및 판매내역 조회 </strong>
+	<p>
+	  <img
+	    src="https://github.com/user-attachments/assets/ed8a383e-e79e-4995-aadf-9b4c654aa3b9"
+	    width="800"
+	  />
+	</p>
   </details>
 
   <details> <summary>템플릿 </summary>
-  1.템플릿생성GIF	![Image](https://github.com/user-attachments/assets/15faeae4-c7fa-4e2f-a55f-4e64f89e23bc)
+	   <strong> 템플릿 생성하기 </strong>
+	<p>
+	  <img
+	    src="https://github.com/user-attachments/assets/15faeae4-c7fa-4e2f-a55f-4e64f89e23bc"
+	    width="800"
+	  />
+	</p>
 
+	<strong> 템플릿 수정하기 </strong>
+	<p>
+	  <img
+	    src="https://github.com/user-attachments/assets/1f3e50b7-c0dc-47bf-b509-1151b515ec68"
+	    width="800"
+	  />
+	</p>
 
   </details>
 
   <details> <summary>운동 기록장 </summary>
-  	<strong> 템플릿 보관함 저장 </strong>
+  	<strong> 템플릿 보관함 저장</strong>
 	<p>
 	  <img
-	    src="https://github.com/user-attachments/assets/15ec2ca7-acb9-479d-8e0f-3da4123aac85"
+	    src="https://github.com/user-attachments/assets/0a5d34c0-510c-4ce5-a2e1-9f60ab8e699a"
 	    width="800"
 	  />
 	</p>
@@ -306,7 +338,7 @@
 	 <strong> 템플릿 적용하기 </strong>
 	<p>
 	  <img
-	    src="https://github.com/user-attachments/assets/6036c564-a45b-48f4-81b2-a69a49d84ec5"
+	    src="https://github.com/user-attachments/assets/b8c51d29-529e-44d2-a828-c17d9490bcd9"
 	    width="800"
 	  />
 	</p>
@@ -314,7 +346,7 @@
   <strong> 운동 기록하기 </strong>
 	<p>
 	  <img
-	    src="https://github.com/user-attachments/assets/15157d57-1a6e-4324-b708-c844e7cd0a11"
+	    src="https://github.com/user-attachments/assets/8fb1534b-3a46-42ec-84c9-a0476361bb83"
 	    width="800"
 	  />
 	</p>
@@ -322,40 +354,38 @@
   <strong> 템플릿 삭제하기 </strong>
 	<p>
 	  <img
-	    src="https://github.com/user-attachments/assets/c2f5ef05-d8b6-4836-a4b6-bae31159e378"
+	    src="https://github.com/user-attachments/assets/6e33e748-61fe-40dc-acad-de55bb7daaee"
 	    width="800"
 	  />
 	</p>
 	</details>
+
 
 	<details>
 	<summary>결제</summary>
 	
 	<strong>포인트 충전</strong>
 	
-	<p>
-	  <img
-	    src="https://github.com/user-attachments/assets/3f51fe13-a727-46fd-a84c-e894b89ce912"
-	    width="800"
-	  />
-	</p>
+	![Image](https://github.com/user-attachments/assets/ffa30d24-ead7-4465-8bf1-1b47456d3959)
 	
 	<strong>포인트 출금</strong>
 	
-	<p>
-	  <img
-	    src="https://github.com/user-attachments/assets/623adc7b-6e75-47de-b76b-55b2e1b4f9d0"
-	    width="800"
-	  />
-	</p>
+	![Image](https://github.com/user-attachments/assets/f1b44f82-2cdb-4946-91f6-3af161ba24fb)
 	
 </details>
 
 ---
 
 ## 🔁 5. 배포 문서
-- ### 아키텍처 구조
+<h2> 아키텍처 구조 </h2>
 <img width="2481" height="2338" alt="Image" src="https://github.com/user-attachments/assets/3e5a352b-f62b-45e9-a6d2-2e680d7555c6" />
+
+<h2>도커 매니페스트</h2>
+
+<a href="https://github.com/nation-of-movement/undong-minjok-infra">
+  <img src="https://img.shields.io/badge/Docker-Manifest-blue?style=for-the-badge&logo=github"/>
+</a>
+
 
 <h2>Dockerfile</h2>
 <details> 
@@ -639,9 +669,7 @@ pipeline {
 
 <br>
 
-
----
-- ### CI/CD 테스트 결과 화면
+<h2> CI/CD 테스트 결과 화면 </h2>
 
 🚀 CI (Continuous Integration) – GitHub 코드 변경을 트리거로 Jenkins 파이프라인이 실행되어 Docker 이미지를 생성하고 Docker Hub에 업로드합니다.
 
@@ -654,8 +682,75 @@ pipeline {
 ---
 ## 🎅🏻 6. 회고
 
+| 이름      | 회고                                                                                                                                                                                                                |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **유한세** | 운동 기록장을 구현하며 기능 구현보다 DB 과부하를 어떻게 줄일 수 있을지 고민했다. 반복적인 조회·저장 구조 속에서 조회 패턴과 데이터 구조가 성능에 미치는 영향을 생각하게 되었고, 성능은 설계 단계부터 함께 고려해야 한다는 점을 배웠다. 짧은 시간 안에 기획부터 배포까지 경험하며 실제 서비스 흐름을 체감했고, 팀원 간 소통과 진행 상황 공유의 중요성도 느낄 수 있었다. |
+| **이민욱** | Kubernetes 인프라와 CI/CD 파이프라인을 직접 구축하며 많은 시행착오를 겪었다. 문제를 팀원들과 함께 해결해 나가며 기술적 역량과 문제 해결 태도를 성장시킬 수 있었고, 자동화된 배포 환경을 완성하며 실제 운영 수준의 시스템을 만들었다는 성취감을 느꼈다.                                                              |
+| **이상도** | 팀원마다 다른 GitHub 사용 방식을 경험하며 다양한 협업 흐름을 익힐 수 있었다. 백엔드 작업을 진행하며 클린 코드의 중요성을 고민했고, 공통 로직을 관리하는 구조에 대해 이해하게 되었다. 짧은 일정 속에서 협력하며 진정한 팀워크를 경험한 시간이었다.                                                                    |
+| **성현제** | 처음으로 중요한 역할을 맡고 브랜치를 공유해 작업하며 Git 협업에 대해 깊이 이해하게 되었다. 충돌과 수정 과정을 반복하며 Git의 동작 원리와 협업 방식을 체감했고, 기능 완성을 위해 끝까지 책임감을 가지고 임할 수 있었다. 인프라 도구에 대해서도 추가 학습의 필요성을 느낀 프로젝트였다.                                               |
+| **정혜인** | 결제 기능을 맡아 Toss Payments를 처음 연동하며 결제 시스템의 전체 흐름을 이해할 수 있었다. 프론트엔드와 백엔드 간 통신 구조와 외부 결제사 연동의 안정성이 중요하다는 점을 체감했고, 문제 해결뿐 아니라 팀과의 소통의 중요성도 함께 배울 수 있었다.                                                                |
+
+
 ---
 ## ⚠️ 7. Trouble Shooting
+<details>
+<summary>🧑🏻‍🦱 회원가입 이메일 인증 검증 개선</summary>
+
+**문제: 인증 완료 여부를 백엔드에서 판단할 수 없음**
+
+회원가입 과정에 이메일 인증을 도입했지만,
+인증코드를 검증한 이후 해당 이메일이 실제로 인증 완료 상태인지를
+백엔드에서 판단할 수 없는 구조적 문제가 있었다.
+
+프론트엔드에서는 인증 성공 여부를 알고 있었지만,
+백엔드는 이를 신뢰할 수 있는 근거가 없어
+사용자가 프론트 단계를 우회해 회원가입 API를 직접 호출할 경우
+이메일 인증 없이도 회원가입이 가능한 보안 취약점이 존재했다.
+
+---
+
+**문제의 원인**
+
+이메일 인증은 본질적으로 다음 두 단계로 이루어진다.
+
+인증코드가 유효한지 검증
+
+해당 이메일이 인증 완료 상태임을 서버에서 유지
+
+기존 구조에는 1번(인증코드 비교)만 존재했고,
+2번에 해당하는 “인증 완료 상태 저장” 로직이 전혀 없었다.
+그 결과 인증 로직이 존재함에도 회원가입과 직접적으로 연결되지 못했다.
+
+---
+
+***해결 1. Redis 기반 인증 완료 플래그 도입**
+
+인증코드 검증이 성공한 경우,
+Redis에 signupVerified:{email} 플래그를 저장하고 TTL을 설정해
+일정 시간 동안만 회원가입이 가능하도록 개선했다.
+
+회원가입 시점에는 백엔드에서 해당 플래그의 존재 여부를 반드시 검사하여,
+이메일 인증이 완료되지 않은 요청은 즉시 차단하도록 했다.
+또한 회원가입이 완료되면 해당 플래그를 제거해
+인증 상태가 재사용되지 않도록 했다.
+
+이를 통해 이메일 인증과 회원가입 흐름을
+서버 단에서 명확하게 연결할 수 있었다.
+
+---
+
+**개선 효과**
+
+프론트엔드 조작이나 API 직접 호출로 인증을 우회할 수 없음
+
+이메일 인증이 실질적인 보안 장치로 동작
+
+인증 성공 → 회원가입 허용 흐름이 서버 기준으로 명확해짐
+
+SIGNUP, PASSWORD_RESET 등 목적별 인증 구조로 확장 가능한 기반 확보
+
+</details>
+
 <details>
 <summary>💳 포인트 결제 트러블 슈팅</summary>
 
@@ -673,5 +768,102 @@ pipeline {
 문제를 해결했습니다.
 
 </details>
+
+<details>
+<summary> 📁파일 관련 트러블 슈팅 </summary>
+
+**문제: 파일 업로드와 데이터베이스 트랜잭션 불일치**
+
+운동 기록을 등록하는 기능에서 이미지 파일 업로드와
+데이터베이스 저장을 하나의 요청으로 함께 처리하고 있었다.
+
+* 이미지 파일은 서버 파일 시스템에 저장
+* 이미지 경로는 데이터베이스에 저장
+* 프론트엔드에서는 이미지 조회 시 API 주소를 `localhost`로 하드코딩
+
+이 구조로 인해 다음과 같은 문제가 동시에 발생했다.
+
+* 데이터베이스 트랜잭션 실패 시
+  → 데이터는 롤백되지만 이미지 파일은 서버에 그대로 남음
+* 프론트엔드에서 API 주소를 하드코딩
+  → 배포 환경에서 이미지 경로가 즉시 깨짐
+
+결과적으로 백엔드와 프론트엔드 모두에서
+**실패 상황과 환경 변화에 취약한 구조**였다.
+
+---
+
+**문제의 원인**
+
+- 백엔드 관점
+
+	데이터베이스 트랜잭션은 DB 내부 작업만 관리할 수 있으며,
+	파일 시스템과 같은 외부 리소스는 트랜잭션 범위에 포함되지 않는다.
+	
+	즉, `@Transactional`만으로는
+	파일 업로드와 DB 저장을 하나의 원자적 작업으로 보장할 수 없었다.
+	
+	그 결과
+	**“데이터는 실패했지만 파일은 성공한 상태”**가 발생할 수 있었다.
+
+---
+
+- 프론트엔드 관점
+	
+	프론트엔드에서 API 서버 주소를 코드에 직접 하드코딩하면,
+	
+	* 개발 / 운영 환경 분리가 불가능하고
+	* 빌드 결과가 특정 서버 주소에 종속되며
+	* 배포 시 코드 수정이 필수적인 구조가 된다
+	
+	즉, 환경이 바뀌면 깨질 수밖에 없는 설계였다.
+
+---
+
+**해결 1. 백엔드 — 보상 트랜잭션 적용**
+
+파일 시스템을 데이터베이스 트랜잭션에 직접 포함시키는 대신,
+**보상 트랜잭션(Compensating Transaction) 패턴**을 적용했다.
+
+Spring의 `TransactionSynchronizationManager`를 활용해
+트랜잭션 종료 시점을 감지하고, 결과에 따라 파일을 정리하도록 설계했다.
+
+**동작 방식**
+
+* 요청 시 이미지 파일을 먼저 서버에 저장
+* 저장된 파일 경로를 포함해 DB 트랜잭션 수행
+* 트랜잭션 종료 시 `afterCompletion` 콜백 실행
+* 처리 결과
+
+  * 커밋 성공 → 기존 이미지 파일 삭제
+  * 롤백 발생 → 새로 업로드된 이미지 파일 삭제
+
+이를 통해 데이터베이스와 파일 시스템 간의 불일치를 방지했다.
+
+---
+
+**해결 2. 프론트엔드 — 환경 변수 기반 API 경로 분리**
+
+프론트엔드에서 이미지 경로를 다음과 같이 하드코딩하고 있었다.
+
+```vue
+<img :src="`http://localhost:8888${imagePath}`" />
+```
+
+이를 **환경 변수 기반 구조**로 개선했다.
+
+* 개발 / 운영 환경별로 API 서버 주소를 분리
+* 코드 수정 없이 동일한 빌드 결과 사용 가능
+
+```js
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
+const imageUrl = `${API_BASE_URL}${imagePath}`;
+```
+
+```vue
+<img :src="imageUrl" />
+```
+</details>
+
 
 ---
