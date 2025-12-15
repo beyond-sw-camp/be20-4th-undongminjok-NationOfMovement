@@ -1,0 +1,119 @@
+# 애플리케이션이 ConfigMap/Secret 받아 쓰는 법
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-deploy
+  namespace: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend
+          image: zkvn1103/undong-minjok-api:42
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+            - name: backend-storage
+              mountPath: /app/uploads
+            - name: backend-storage
+              mountPath: /app/logs
+          ports:
+            - containerPort: 8888
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-config
+                  key: SPRING_PROFILES_ACTIVE
+
+            - name: GMAIL_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: GMAIL_USERNAME
+
+            - name: GMAIL_APP_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: GMAIL_APP_PASSWORD
+
+            - name: TOSS-SECRET-KEY
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: TOSS-SECRET-KEY
+
+            - name: TOSS-CLIENT-KEY
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: TOSS-CLIENT-KEY
+
+            - name: TOSS-BASE-URL
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: TOSS-BASE-URL
+
+            - name: TOSS-SUCCESS-KEY-DEV
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: TOSS-SUCCESS-KEY-DEV
+
+            - name: TOSS-FAIL-KEY-DEV
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: TOSS-FAIL-KEY-DEV
+
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-config
+                  key: DB_HOST
+            - name: DB_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-config
+                  key: DB_PORT
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: DB_USERNAME
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: DB_PASSWORD
+
+            - name: REDIS_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-config
+                  key: REDIS_HOST
+            - name: REDIS_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: backend-config
+                  key: REDIS_PORT
+            - name: JWT_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: JWT_SECRET_KEY
+      imagePullSecrets:
+        - name: dockerhub-secret
+
+      volumes:
+        - name: backend-storage
+          persistentVolumeClaim:
+            claimName: backend-pvc
