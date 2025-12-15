@@ -243,7 +243,7 @@
 
 
 - ### 📚 요구사항 명세서
-  요구사항 명세서를 자세히 보려면 [여기](https://www.notion.so/2bc0b8a09a7680d1a3b4e7640ba15cb9?v=2bc0b8a09a7681fcb1b6000c720c82db&source=copy_link)를 클릭하세요 <br>
+  요구사항 명세서를 자세히 보려면 [여기](https://docs.google.com/spreadsheets/d/1VSlXmnJUkZWpFboH15FVmQTejf7WWCsZaAJZbFtbtzQ/edit?gid=0#gid=0)를 클릭하세요 <br>
 
   <details> <summary> 요구사항 명세서 </summary>
   <img width="1510" height="1162" alt="요구사항명세서" src="https://github.com/user-attachments/assets/4708dd78-8183-4f53-ad45-f1c968664cd4" />
@@ -253,7 +253,7 @@
   ERD를 자세히 보려면 [여기](https://www.notion.so/2bc0b8a09a7680d1a3b4e7640ba15cb9?v=2bc0b8a09a7681fcb1b6000c720c82db&source=copy_link)를 클릭하세요 <br>
 
   <details> <summary> ERD </summary>
-    <img width="2780" height="1152" alt="erd" src="https://github.com/user-attachments/assets/915f26b6-16fe-44a4-a1be-43f4934057fc" />
+    <img width="2780" height="1152" alt="erd" src="https://www.erdcloud.com/d/ichR3oL4DLfwmjMJu" />
   </details>
   
 - ### 🖼️ 화면 설계서
