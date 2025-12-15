@@ -250,7 +250,7 @@
   </details>
 
 - ### 🗺️ ERD **(Entity Relationship Diagram)**
-  ERD를 자세히 보려면 [여기](https://www.notion.so/2bc0b8a09a7680d1a3b4e7640ba15cb9?v=2bc0b8a09a7681fcb1b6000c720c82db&source=copy_link)를 클릭하세요 <br>
+  ERD를 자세히 보려면 [여기](https://www.erdcloud.com/d/ichR3oL4DLfwmjMJu)를 클릭하세요 <br>
 
   <details> <summary> ERD </summary>
     <img width="2780" height="1152" alt="erd" src="https://www.erdcloud.com/d/ichR3oL4DLfwmjMJu" />
